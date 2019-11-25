@@ -3,8 +3,7 @@ sudo cp '/vagrant/sources/sources.list' '/etc/apt/'
 
 sudo apt update -y
 
-sudo apt-get install build-essential tcl -y
-sudo apt-get install libjemalloc-dev -y
+sudo apt-get install build-essential tcl libjemalloc-dev -y
 
 curl -O http://download.redis.io/redis-stable.tar.gz
 tar xzvf redis-stable.tar.gz
